@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Borel", cursive;
+  font-family: "Nunito", sans-serif;
+}
+.body {
+  width: 100%;
+  height: 100vh;
+}
+.title-section {
+  background-color: #000;
+  color: #fff;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-section img {
+  height: 7rem;
+  margin-top: 5rem;
+}
+.title-section h1 {
+  font-size: 5rem;
+}
+.title-section h3 {
+  font-size: 2rem;
+}
+.best-thought {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 10rem 0 0 0;
+}
+.best-thought h1 {
+  margin-left: 15rem;
+  font-size: 3rem;
+}
+
+.biography-section {
+  background-color: #000;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.biography-section h1 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+.biography {
+  width: 70%;
+  margin: 10rem;
+  color: #fff;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.copyright {
+  height: 10rem;
+  border: 2px solid rgb(250, 250, 250);
+  border-bottom: #000;
+  border-left: #000;
+  border-right: #000;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.copyright img {
+  height: 50px;
+}
+.copyright a {
+  color: #fff;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    P{
+      margin-top : 1rem ;
+    }
+    .title-section{
+        text-align: center;
+    }
+  .best-thought {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    height: 70vh;
+    margin: 10rem 0;
+  }
+  .best-thought h1 {
+    margin: 1rem;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+  }
+  .best-thought img {
+    border: 1px solid;
+    border-radius: 50%;
+  }
+  .biography {
+    width: 100%;
+    margin: 2.5rem;
+  }
+}
+@media only screen and (max-width: 414px) {
+  
+  .best-thought {
+    height: 100vh;
+    /* margin-top: -1rem;
+    margin-bottom: 5rem; */
+  }
+  .best-thought br {
+    content: "";
+  }
+  .best-thought h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2.5rem;
+  }
+  .best-thought img {
+    height: 300px;
+  }
+  .copyright{
+    font-size: 1rem;
+    height: auto;
+  }
+}
